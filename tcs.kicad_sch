@@ -1,0 +1,1435 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b319d7ae-129d-44f9-8b55-571e2b509973)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_Small" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "capacitor cap" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Small_0_1"
+        (polyline
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
+          (stroke (width 0.3302) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
+          (stroke (width 0.3048) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:FerriteBead_Small" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "FB" (at 1.905 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "FerriteBead_Small" (at 1.905 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at -1.778 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "L ferrite bead inductor filter" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Ferrite bead, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "FerriteBead_Small_0_1"
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 -0.7874)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.889)
+            (xy 0 1.2954)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.8288 0.2794)
+            (xy -1.1176 1.4986)
+            (xy 1.8288 -0.2032)
+            (xy 1.1176 -1.4224)
+            (xy -1.8288 0.2794)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "FerriteBead_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:Thermocouple" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "TC" (at -3.048 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Thermocouple" (at -5.08 -4.064 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at -14.605 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at -14.605 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "thermocouple temperature sensor cold junction" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Thermocouple" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "PIN?ARRAY* bornier* *Terminal?Block* Thermo*Couple*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Thermocouple_0_1"
+        (circle (center -3.048 0) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy -4.064 -1.016)
+            (xy -4.318 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.556 -0.508)
+            (xy -3.81 -0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.048 0)
+            (xy -3.302 -0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0.508)
+            (xy -2.794 0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 1.016)
+            (xy -2.286 0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 1.524)
+            (xy -1.778 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 2.032)
+            (xy -1.27 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.508 2.54)
+            (xy -0.762 2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.54)
+            (xy -0.254 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy -0.508 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 -2.54)
+            (xy -0.508 -2.54)
+            (xy -4.318 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Thermocouple_1_1"
+        (pin passive line (at 2.54 2.54 180) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -2.54 180) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Power_Protection:SZNUP2105L" (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 5.715 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "SZNUP2105L" (at 5.715 0.635 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 5.715 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" (at 3.175 3.175 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "can esd protection suppression transient automotive" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Dual Line CAN Bus Protector, 24Vrwm, Automotive Grade" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SZNUP2105L_0_0"
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "SZNUP2105L_0_1"
+        (rectangle (start -4.445 2.54) (end 4.445 -2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy -2.54 2.54)
+            (xy -2.54 0.635)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy 2.54 0.635)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.81 1.27)
+            (xy -3.175 0.635)
+            (xy -1.905 0.635)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0.635)
+            (xy -2.54 -1.27)
+            (xy 2.54 -1.27)
+            (xy 2.54 0.635)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0.635)
+            (xy -1.905 -0.635)
+            (xy -3.175 -0.635)
+            (xy -2.54 0.635)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 0.635)
+            (xy 1.905 -0.635)
+            (xy 3.175 -0.635)
+            (xy 2.54 0.635)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 0.635)
+            (xy 3.175 1.905)
+            (xy 1.905 1.905)
+            (xy 2.54 0.635)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0.635)
+            (xy -3.175 1.905)
+            (xy -1.905 1.905)
+            (xy -2.54 0.635)
+            (xy -2.54 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.905 0.635)
+            (xy 2.54 0.635)
+            (xy 3.175 0.635)
+            (xy 3.81 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "SZNUP2105L_1_1"
+        (pin passive line (at -2.54 5.08 270) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "UCIRP-Symbols:MAX31855" (pin_numbers hide) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31855.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer" "Analog Devices" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Part #" "MAX31855" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol "MAX31855_0_1"
+        (rectangle (start -6.35 6.35) (end 6.35 -6.35)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "MAX31855_1_1"
+        (pin power_in line (at -10.16 3.81 0) (length 3.81)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -10.16 1.27 0) (length 3.81)
+          (name "T-" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -10.16 -1.27 0) (length 3.81)
+          (name "T+" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at -10.16 -3.81 0) (length 3.81)
+          (name "VCC" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin input clock (at 10.16 -3.81 180) (length 3.81)
+          (name "SCK" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin input inverted (at 10.16 -1.27 180) (length 3.81)
+          (name "~{CS}" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 10.16 1.27 180) (length 3.81)
+          (name "SO" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 10.16 3.81 180) (length 3.81)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3.3V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 143.51 92.075) (diameter 0) (color 0 0 0 0)
+    (uuid 274a476e-4fb0-48fd-a6ac-98f40660affa)
+  )
+  (junction (at 140.97 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid 2ea25d3d-b0be-495c-bec8-41565edab95f)
+  )
+  (junction (at 143.51 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid 3f49ec0e-fc77-4820-b3d6-65d02bff4f27)
+  )
+  (junction (at 140.97 92.075) (diameter 0) (color 0 0 0 0)
+    (uuid fe306b1f-7840-4533-9ce8-949d71462322)
+  )
+
+  (wire (pts (xy 111.76 79.375) (xy 111.76 73.66))
+    (stroke (width 0) (type default))
+    (uuid 08fb835a-3f1a-479b-af68-f169fedafb33)
+  )
+  (wire (pts (xy 152.4 92.075) (xy 152.4 83.82))
+    (stroke (width 0) (type default))
+    (uuid 2511b514-1be2-49eb-8132-0b06ff5e0099)
+  )
+  (wire (pts (xy 143.51 83.82) (xy 143.51 92.075))
+    (stroke (width 0) (type default))
+    (uuid 25bd3668-0fdc-4a81-b79d-11753f119f77)
+  )
+  (wire (pts (xy 139.7 83.82) (xy 140.97 83.82))
+    (stroke (width 0) (type default))
+    (uuid 3a7790a2-413d-4b6a-8e96-861de854d4e5)
+  )
+  (wire (pts (xy 111.76 73.66) (xy 120.65 73.66))
+    (stroke (width 0) (type default))
+    (uuid 4e1b311d-9686-48ed-90ed-149f2b8a25bd)
+  )
+  (wire (pts (xy 111.76 92.075) (xy 120.65 92.075))
+    (stroke (width 0) (type default))
+    (uuid 573a95b9-4c61-46b7-8b83-a71c22eaec6d)
+  )
+  (wire (pts (xy 111.76 84.455) (xy 111.76 92.075))
+    (stroke (width 0) (type default))
+    (uuid 7a7f7974-1f58-4dbf-9407-f8971c779082)
+  )
+  (wire (pts (xy 143.51 73.66) (xy 143.51 78.74))
+    (stroke (width 0) (type default))
+    (uuid 80067120-8035-430b-a05a-a7c5f51dc405)
+  )
+  (wire (pts (xy 152.4 81.28) (xy 155.575 81.28))
+    (stroke (width 0) (type default))
+    (uuid 8019252d-5604-4040-b47a-0f39d306982c)
+  )
+  (wire (pts (xy 140.97 78.74) (xy 139.7 78.74))
+    (stroke (width 0) (type default))
+    (uuid 8861ba38-9e9d-4141-8213-d6abba7de8a2)
+  )
+  (wire (pts (xy 125.73 73.66) (xy 140.97 73.66))
+    (stroke (width 0) (type default))
+    (uuid 8aea207b-c321-45e2-aa79-a6653786383e)
+  )
+  (wire (pts (xy 152.4 83.82) (xy 155.575 83.82))
+    (stroke (width 0) (type default))
+    (uuid 92f61805-82eb-4ca3-9131-8ae5fdc054e6)
+  )
+  (wire (pts (xy 125.73 92.075) (xy 140.97 92.075))
+    (stroke (width 0) (type default))
+    (uuid 97ce4488-bfa3-4573-9df2-00ed65150c43)
+  )
+  (wire (pts (xy 143.51 92.075) (xy 152.4 92.075))
+    (stroke (width 0) (type default))
+    (uuid 9c6dd81e-bc90-4576-8a19-3bf3e57b1ef1)
+  )
+  (wire (pts (xy 140.97 73.66) (xy 140.97 78.74))
+    (stroke (width 0) (type default))
+    (uuid b1c0c781-a708-4ff8-9084-9fb988633bbe)
+  )
+  (wire (pts (xy 140.97 83.82) (xy 140.97 92.075))
+    (stroke (width 0) (type default))
+    (uuid b2cc9ae1-42a9-43b5-9429-f3a1b308c5d9)
+  )
+  (wire (pts (xy 143.51 73.66) (xy 152.4 73.66))
+    (stroke (width 0) (type default))
+    (uuid c2c04aae-51b7-403a-bd49-f28af603f41a)
+  )
+  (wire (pts (xy 140.97 73.66) (xy 143.51 73.66))
+    (stroke (width 0) (type default))
+    (uuid da828726-5bce-44e2-82cc-2efcb2053b35)
+  )
+  (wire (pts (xy 152.4 81.28) (xy 152.4 73.66))
+    (stroke (width 0) (type default))
+    (uuid e915a4b2-86f9-4d8f-9a44-ced5f3a9b431)
+  )
+  (wire (pts (xy 140.97 92.075) (xy 143.51 92.075))
+    (stroke (width 0) (type default))
+    (uuid fd211d91-fd25-45bc-a67e-d55728a76664)
+  )
+
+  (text "spi receive only\nmaster pin in stm32\n" (at 137.16 100.33 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 07e05f61-4729-40df-b3b0-c45e26ed7c52)
+  )
+  (text "MAX31855 TC" (at 98.425 107.315 0)
+    (effects (font (size 2.5 2.5) (thickness 0.5) bold) (justify left bottom))
+    (uuid a18ef8a0-610b-4d71-ba83-5f874a63b764)
+  )
+
+  (hierarchical_label "SO" (shape output) (at 175.895 83.82 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 4c52e835-4928-493c-a111-16166ec1c536)
+  )
+  (hierarchical_label "nCS" (shape output) (at 175.895 81.28 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 733d2e4a-c777-4456-9e41-9b677ee90fa4)
+  )
+  (hierarchical_label "SCK" (shape output) (at 175.895 78.74 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f0d26588-13ef-43f2-af60-700919c1e278)
+  )
+
+  (symbol (lib_id "power:GND") (at 173.99 69.215 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 01facd9c-425a-4711-867d-0666c69ff676)
+    (property "Reference" "#PWR036" (at 173.99 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 173.99 73.66 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 173.99 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 173.99 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 02b65740-d97e-453d-bc06-2be331712dde))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "#PWR036") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "TC_reading_2"
+        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "#PWR0186") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "#PWR0176") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "#PWR0161") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "#PWR0156") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "#PWR0166") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "#PWR0171") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "#PWR0151") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "UCIRP-Symbols:MAX31855") (at 165.735 82.55 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1678fc26-8a8e-4cdc-b05c-3f35275bc8b0)
+    (property "Reference" "U4" (at 170.815 90.17 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "~" (at 165.735 80.01 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 165.735 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31855.pdf" (at 165.735 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Analog Devices" (at 182.88 85.6741 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part #" "MAX31855" (at 167.005 92.075 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 6c39cf8a-944d-4bc8-9223-1cae34244118))
+    (pin "2" (uuid e757bb23-3bed-4e98-bb23-8f5c893710da))
+    (pin "3" (uuid fe546cfa-4064-4371-aa7c-272d7f25cdfb))
+    (pin "4" (uuid c03207d3-5b73-46d0-9958-3b565832efa9))
+    (pin "5" (uuid c961f2d4-aed5-4950-b648-caf4ee5a32ef))
+    (pin "6" (uuid 3ea68366-382c-435f-86f3-4578da98178b))
+    (pin "7" (uuid 9b5f6a3d-421d-43d9-a133-d48089061371))
+    (pin "8" (uuid ee2eca83-189d-4e2b-8454-e4a0be2ac68c))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "U4") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "U1") (unit 1)
+        )
+      )
+      (project "TC_reading_2"
+        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
+          (reference "U2") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "U17") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "U22") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "U19") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "U18") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "U20") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "U21") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "U17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 129.54 81.28 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 320fe0db-7ea0-47af-8a3e-cd9a99022156)
+    (property "Reference" "#PWR013" (at 123.19 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 126.365 81.915 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 129.54 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 129.54 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 07dda9d6-cc67-48d4-b269-4d30d9f9f1d9))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "TC_reading_2"
+        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "#PWR0182") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "#PWR0172") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "#PWR0157") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "#PWR0152") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "#PWR0162") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "#PWR0167") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "#PWR0147") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 155.575 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3333d1cc-5a08-49fc-83b2-1e1d390791f9)
+    (property "Reference" "#PWR022" (at 155.575 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 155.575 90.805 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 155.575 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 155.575 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 28e23c46-234c-4034-b96a-ebe7449f0a47))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "TC_reading_2"
+        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "#PWR0184") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "#PWR0174") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "#PWR0159") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "#PWR0154") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "#PWR0164") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "#PWR0169") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "#PWR0149") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:FerriteBead_Small") (at 123.19 73.66 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4cc38bbc-2d2b-4e5a-932d-9de41a84a2b8)
+    (property "Reference" "FB1" (at 123.1519 68.58 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "FerriteBead_Small" (at 123.1519 71.12 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 123.19 75.438 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.murata.com/en-us/api/pdfdownloadapi?cate=cgsubChipFerriBead&partno=BLM18PG471SH1%23" (at 123.19 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 123.19 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part #" "BLM18PG471SH1D" (at 123.19 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1974702e-49a2-4ab2-b364-352715ff08c0))
+    (pin "2" (uuid 3d847982-90be-43d6-8f32-b981c0d6a718))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "FB1") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "FB1") (unit 1)
+        )
+      )
+      (project "TC_reading_2"
+        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
+          (reference "FB1") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "FB1") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "FB11") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "FB5") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "FB3") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "FB7") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "FB9") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "FB1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Power_Protection:SZNUP2105L") (at 134.62 81.28 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8af21a64-ed63-4bdd-83ee-74f1d2fea941)
+    (property "Reference" "D1" (at 134.62 89.535 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SZNUP2105L" (at 134.62 86.995 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 133.35 75.565 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" (at 137.795 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "onsemi" (at 134.62 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part #" "SZNUP2105L" (at 134.62 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "3" (uuid 90ee09e7-c114-4ab3-93a4-d712e22be46c))
+    (pin "1" (uuid b8dcb112-c24c-4f7e-8ea3-d17433972f2c))
+    (pin "2" (uuid 5c79d0d4-56a4-431a-aca0-1aa1c11496b0))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "TC_reading_2"
+        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "D31") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "D32") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "D29") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "D28") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "D30") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "D31") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "D27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:FerriteBead_Small") (at 123.19 92.075 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8d602c8f-f1e7-43f6-a3c6-9806b52cb29b)
+    (property "Reference" "FB2" (at 123.19 95.25 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "FerriteBead_Small" (at 123.19 97.79 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 123.19 93.853 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.murata.com/en-us/api/pdfdownloadapi?cate=cgsubChipFerriBead&partno=BLM18PG471SH1%23" (at 123.19 92.075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 123.19 92.075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part #" "BLM18PG471SH1D" (at 123.19 92.075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3c3872e5-418e-40ef-bad7-54c38da5c9fd))
+    (pin "2" (uuid 23efc07b-b192-4d07-a8b5-e5b8b2935edf))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "FB2") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "FB2") (unit 1)
+        )
+      )
+      (project "TC_reading_2"
+        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
+          (reference "FB2") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "FB2") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "FB12") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "FB6") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "FB4") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "FB8") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "FB10") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "FB2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 173.99 66.675 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 99080b56-b5be-45b4-bbc7-80b648ee5640)
+    (property "Reference" "C21" (at 177.165 66.0463 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (at 177.165 68.5863 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 173.99 66.675 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 173.99 66.675 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Generic" (at 173.99 66.675 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part #" "Generic 100nF 0402 Capacitor" (at 173.99 66.675 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 597d186f-50a7-40db-a888-6a3333947684))
+    (pin "2" (uuid a90bda70-1531-4d94-9b9c-c8475c3b8595))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "C21") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "TC_reading_2"
+        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "C25") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "C27") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "C21") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "C19") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "C23") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "C25") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "C17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 173.99 64.135 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a17e8fe0-38d7-42c0-b9f5-f6f971ef2047)
+    (property "Reference" "#PWR035" (at 173.99 67.945 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 173.99 60.325 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 173.99 64.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 173.99 64.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e4a6d0c9-25b2-4193-8cf1-dd4688aad924))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "#PWR035") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "TC_reading_2"
+        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "#PWR0185") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "#PWR0175") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "#PWR0160") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "#PWR0155") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "#PWR0165") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "#PWR0170") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "#PWR0150") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 155.575 78.74 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a344c237-5b4e-4487-be2a-619de722c883)
+    (property "Reference" "#PWR021" (at 155.575 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 155.575 75.565 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 155.575 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 155.575 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 630d42f9-2576-43e8-981c-1837976c2fce))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "TC_reading_2"
+        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "#PWR0183") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "#PWR0173") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "#PWR0158") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "#PWR0153") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "#PWR0163") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "#PWR0168") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "#PWR0148") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 143.51 81.28 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e90b8db5-840a-44d0-8d55-7fff77d6e5d0)
+    (property "Reference" "C20" (at 146.05 80.6513 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10nF" (at 146.05 83.1913 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 143.51 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 143.51 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Generic" (at 143.51 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part #" "Generic 10nF 0402 Capacitor" (at 143.51 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7e51f237-0853-4d00-a942-23d8d20611f8))
+    (pin "2" (uuid 117ee69f-3131-4170-8c6b-81749fed2ee3))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "C20") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "TC_reading_2"
+        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "C24") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "C26") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "C20") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "C18") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "C22") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "C24") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "C16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Thermocouple") (at 109.22 81.915 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e97de16b-5687-4814-9b2f-94145ec10f66)
+    (property "Reference" "TC2" (at 109.22 73.66 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Thermocouple" (at 104.775 76.2 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "KiCad:AMKPCB" (at 94.615 80.645 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.farnell.com/datasheets/1733454.pdf" (at 94.615 80.645 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "LABFACILITY" (at 109.22 81.915 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part #" "AM-K-PCB" (at 109.22 81.915 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3a1fa2fc-ac5a-4bd2-921d-b012a2f9f5bc))
+    (pin "2" (uuid 9f4b55d2-ec22-483f-a179-93090eb4f7ed))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "TC2") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "TC3") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "TC1") (unit 1)
+        )
+      )
+      (project "TC_reading_1"
+        (path "/b981cf81-8554-45c0-a00f-7680f1fa68dd"
+          (reference "TC1") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "TC6") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "TC3") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "TC2") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "TC4") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "TC5") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "TC1") (unit 1)
+        )
+      )
+    )
+  )
+)
